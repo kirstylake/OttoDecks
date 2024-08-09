@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="tYUsw0" name="OtoDecks" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="rc2OlI" name="OtoDecks">
+    <GROUP id="{BBE0226C-E9F0-47B4-207E-275B484D97BA}" name="Source">
+      <FILE id="aE1xFr" name="LogoHeader.cpp" compile="1" resource="0" file="Source/LogoHeader.cpp"/>
+      <FILE id="UT6oPK" name="LogoHeader.h" compile="0" resource="0" file="Source/LogoHeader.h"/>
+      <FILE id="jRGKV5" name="TrackHeader.cpp" compile="1" resource="0" file="Source/TrackHeader.cpp"/>
+      <FILE id="pkz90R" name="TrackHeader.h" compile="0" resource="0" file="Source/TrackHeader.h"/>
+      <FILE id="j7kRHg" name="PlaylistComponent.cpp" compile="1" resource="0"
+            file="Source/PlaylistComponent.cpp"/>
+      <FILE id="WeUIXn" name="PlaylistComponent.h" compile="0" resource="0"
+            file="Source/PlaylistComponent.h"/>
+      <FILE id="sx6BvV" name="WaveformDisplay.cpp" compile="1" resource="0"
+            file="Source/WaveformDisplay.cpp"/>
+      <FILE id="o3cYxM" name="WaveformDisplay.h" compile="0" resource="0"
+            file="Source/WaveformDisplay.h"/>
+      <FILE id="CknIRg" name="DeckGUI.cpp" compile="1" resource="0" file="Source/DeckGUI.cpp"/>
+      <FILE id="LwCtNQ" name="DeckGUI.h" compile="0" resource="0" file="Source/DeckGUI.h"/>
+      <FILE id="tCQ6qz" name="DJAudioPlayer.cpp" compile="1" resource="0"
+            file="Source/DJAudioPlayer.cpp"/>
+      <FILE id="Xvo74Z" name="DJAudioPlayer.h" compile="0" resource="0" file="Source/DJAudioPlayer.h"/>
+      <FILE id="cuWVrM" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="QWPQBC" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="sM26M2" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="OtoDecks"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="OtoDecks"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="OtoDecks"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="OtoDecks"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="OtoDecks"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="OtoDecks"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:/Users/kirst/OneDrive/Desktop/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
